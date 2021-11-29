@@ -1,0 +1,10 @@
+@import './global.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import './header.css';
+@import '../pagina-produto-css/slide.css';
+@import '../pagina-produto-css/blocoCompra.css';
+@import '../pagina-produto-css/descricaoProduto.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import './footer.css';
+@import './responsividade.css';
+

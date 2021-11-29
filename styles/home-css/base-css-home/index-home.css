@@ -1,0 +1,8 @@
+@import './home-global.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import './home-header.css';
+@import '../filipe-main.css';
+@import '../owl/owl.carousel.min.css';
+@import '../owl/owl.theme.default.min.css';
+@import './home-footer.css';
+@import './home-responsive.css'

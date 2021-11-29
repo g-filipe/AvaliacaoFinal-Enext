@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.blocoDeCompra{
+  margin-top: 100px;
+  display:flex;
+  justify-content: space-around;
+}
+
+.product-buyInformation{
+  width:40vw;
+  display:flex;
+  flex-direction: column;
+}
+
+.product-buyInformation{
+font-size: 0.8rem;
+}
+
+span{
+  font-size: 0.9rem;
+  color: #c4c4c4;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.resume-list{
+  display:flex;
+  flex-direction: column;
+  line-height: 21.5px;
+  margin-top: 20px;
+  color: #36363C;
+}
+
+/*SKU CONTAINER E SELETORES*/
+
+.seletorSku{
+  border-top: 1px solid #c4c4c4;
+  margin-top: 0px;
+}
+
+.seletorSku p{
+  padding-top: 12px;
+  margin-top: 12px;
+  margin-bottom: 7px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.seletorSku > button {
+  box-shadow: none;
+  border-radius: 2px;
+  border:1px solid #c4c4c4;
+  box-shadow: 0.5px 0.5px 1px rgba(0,0,0, 0.363);
+  width:100px;
+  height:50px;
+  margin-top: 1%;
+  background: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+
+.seletorSkuClicked {
+  background-color: #1428A0 !important;
+  border:1px solid #1428A0 !important;
+  color: #fff;
+}
+
+/*PREÇO PRODUTO*/
+
+#precoProduto {
+  margin-top: 45px;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+.preco-container{
+  border: 1px solid #c4c4c4;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4.5px;
+  width:62%
+}
+
+.preco-container span{
+  color: #000000;
+  font-size: 1rem;
+
+}
+
+.preco-container p{
+  font-size: 0.8rem;
+  color: #1428A0;
+}
+
+/*BOTÃO DE COMPRA*/
+
+.buyBtn{
+  background-color: #1428A0;
+  cursor:pointer;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border:none;
+  box-shadow: 1px 1px 2px rgba(0,0,0, 0.363);
+  width:65%;
+  height:50px;
+  margin-top: 1%;
+}
+
+.buyBtn:hover{
+  background-color: #030f55;;
+  color:#ffffff;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/*FRETE*/
+
+.frete{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  width: 55%;
+}
+
+.cep{
+  margin-top:12px;
+  font-size: 0.6rem;
+  color:#1F1F1F;
+}
+
+.inputFrete{
+  display:flex;
+  margin-bottom: 10px;
+}
+
+.p-frete{
+  margin-top: 35px;
+  font-weight: bold;
+  font-size: 1rem;
+  
+}
+
+.campoFrete{
+  border: 1px solid #c4c4c4;
+  height: 29px;
+  border-radius: 3px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+}
+
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+}
+
+textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+ 
+.freteBtn{
+  background-color: #ffffff;
+  cursor:pointer;
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: #1428A0;;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border:1px solid #1428A0;
+  width:120px;
+  height:29px;
+}
+
+.correios{
+  color:#1428A0;
+  cursor:pointer;
+  font-weight: 400;
+  font-size: 0.6rem;
+  padding-top: 7px;
+  text-decoration: underline;
+}
+

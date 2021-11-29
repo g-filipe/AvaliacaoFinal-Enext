@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Filipe Galvão">
+  <meta name="description" content="Desafio Final do Programa de Capacitação VTEX promovido pela Enext a Wunderman Thompson Company.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/faviconGstore.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="./styles/home-css/base-css-home/index-home.css">
+  
+  <title>Gstore Home</title>
+
+</head>
+
+<body>
+  <header>
+     <div class="wrapper">
+        <nav>
+          <input type="checkbox" id="show-search">
+          <input type="checkbox" id="show-menu">
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+          <div class="content">
+            <div class="logo"><a href="home.html">Gstore</a></div>
+          
+            <!------------DEPARTAMENTOS------------------>
+            <ul class="links">
+              <li>
+                <a href="#" class="desktop-link">Departamentos</a>
+                <input type="checkbox" id="show-features">
+                <label for="show-features">Departamentos</label>
+                <ul>
+                  <li><a href="#">Celulares</a></li>
+                  <li><a href="#">Informática</a></li>
+                  <li><a href="#">TV e Vídeo</a></li>
+                  <li><a href="#">Eletrodomésticos</a></li>
+                </ul>
+              </li>
+
+            <!--------------CELULARES---------------------->            
+              <li><a href="#">Celulares</a></li>
+            
+            <!--------------INFORMÁTICA-------------------->     
+              <li>
+                <a href="#" class="desktop-link">Informática</a>
+                <input type="checkbox" id="show-services">
+                <label for="show-services">Informática</label>
+                <ul>
+                  <li><a href="#">Notebooks</a></li>
+                  <li><a href="#">Desktops</a></li>
+                  <li><a href="#">Acessórios</a></li>
+                </ul>
+              </li>
+
+             <!--------------TV E VÍDEO---------------------->   
+              <li><a href="#">Tv e Vídeo</a></li>
+
+            <!---------------ELETRODOMÉSTICOS---------------->   
+              <li><a href="#">Eletrodomésticos</a>
+                <ul>
+                  <li><a href="#">Refrigeradores</a></li>
+                  <li><a href="#">Lava & Seca</a></li>
+                  <li><a href="#">Microondas</a></li>
+                  <li><a href="#">Fogão e Forno</a></li>
+                </ul>
+              </li>
+          </ul>
+        </div>
+
+          <!--CAMPO DE PESQUISA-->
+          <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+          <form action="#" class="search-box">
+            <input type="text" placeholder="O que você está buscando?" required>
+            <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+          </form>
+        </nav>
+      </div>
+    </header>
+   
+    <main>
+      <div id="titulo"><h1>Smart Things</h1></div>
+      
+      <div class="banner">
+          <div class="lancamentoImg">
+             <img src="https://m.media-amazon.com/images/S/aplus-media/sota/0fbf9359-a3d7-47d2-ab6f-71b165cc6f1b.__CR0,0,970,600_PT0_SX970_V1___.jpg" alt=" Smart TV LED 55'' PRO Ultra HD 4K LG 55UM761"  title="SmartTV LG 55''">
+          </div>
+    
+          <div class="prodTextBanner">
+            <h2>LG UHD TV AI ThinQ</h2>
+           <p>Todo poder, design e desenpenho que você já conhece em um novo conceito de Smart TV. Surpreenda-se com o inimaginável!</p>
+            <input id="productPageButton1" class="ctaProd" type="button" value="Saiba Mais" />
+          </div>
+       </div>
+      
+       <div class="banner">
+          <div class="prodTextBanner">
+            <h2>Família HUB - Samsung</h2>
+            <p>Se você busca refrigeradores com design imponente, espaço interno bem distribuído e ainda <strong>inteligentes</strong>, a nova linha de <em>Refrigeradores Smart</em> da Samsung irá te apaixonar!</p>
+            <input id="productPageButton2" class="ctaProd" type="button" value="Escolha o seu" onclick="productPage2()" >
+          </div>
+
+          <div class="lancamentoImg">
+            <img src="https://blog.webcontinental.com.br/wp-content/uploads/2019/11/geladeira-inteligente.jpg" alt="Apresentando a nova linha de refrigeradores smart da Samsung" title="Refrigerador Smart Samung">
+           </div>
+      </div>
+    
+    </main>
+
+  <section>
+    
+    <div class="carrossel-container">
+      <p id="vitrine-title">Confira nossos outros produtos</p>
+        <div class="owl-carousel owl-theme">
+              
+              <!-------Item 1-------->
+              <div class="item">
+                      <img class="box-produto" src="./img/home-pics/carrossel-produtos/notebookDell.jpg" alt="notebook dell inspiron i3501-u10p" >
+                      <div class="prod-description">
+                      <p>Dell Inspiron i3501-U10P 15.6 Intel Pentium Gold</p>
+                      </div>                      
+                      <div class="was-price"> 
+                            <span>De: </span> <del>R$ 2.699,00</del>
+                      </div>
+                      <div class="is-price">
+                            <span>Por: </span> <span>R$ 2.500,00</span>
+                      </div>
+                      <input class="addCart" type="button" value="Adicionar ao Carrinho"/>
+              </div>
+              
+              <!-------Item 2-------->
+              <div class="item">
+                      <img class="box-prod" src="./img/home-pics/carrossel-produtos/ipadPro21.jpg" alt="Ipad Pro" >
+                      <div class="prod-description">
+                        <p>Apple iPad Pro Wi-Fi de 11 polegadas (Wi-Fi, 256 GB)</p>
+                      </div>
+                      <div class="was-price"> 
+                          <span>De: </span> <del>R$ 10.699,00</del>
+                      </div>
+                      <div class="is-price">
+                          <span>Por: </span> <span>R$ 9.599,00</span>
+                      </div>
+
+                      <input class="addCart" type="button" value="Adicionar ao Carrinho"/>
+              </div>
+
+              <!-------Item 3-------->
+              <div class="item">
+                      <img class="box-produto" src="./img/home-pics/carrossel-produtos/notebookDell.jpg" alt="notebook dell inspiron i3501-u10p" >
+                      <div class="prod-description">
+                        <p>Apple iPad Pro Wi-Fi de 11 polegadas (Wi-Fi, 256 GB)</p>
+                      </div>
+                      <div class="was-price"> 
+                            <span>De: </span> <del>R$ 2.699,00</del>
+                      </div>
+                      <div class="is-price">
+                          <span>Por: </span> <span>R$ 2.500,00</span>
+                      </div>
+                      
+                      <input class="addCart" type="button" value="Adicionar ao Carrinho"/>
+              </div>
+
+              <!-------Item 4-------->
+              <div class="item">
+                      <img class="box-produto" src="./img/home-pics/carrossel-produtos/ipadPro21.jpg" alt="Ipad Pro" >
+                      <div class="prod-description">
+                        <p>Apple iPad Pro Wi-Fi de 11 polegadas (Wi-Fi, 256 GB)</p>
+                      </div>
+                      <div class="was-price"> 
+                            <span>De: </span> <del>R$ 10.699,00</del>
+                      </div>
+                      <div class="is-price">
+                          <span>Por: </span> <span>R$ 9.599,00</span>
+                      </div>
+                      
+                      <input class="addCart" type="button" value="Adicionar ao Carrinho"/>
+              </div>
+
+              <!-------Item 5-------->
+              <div class="item">
+                      <img class="box-produto" src="./img/home-pics/carrossel-produtos/notebookDell.jpg" alt="notebook dell inspiron i3501-u10p" >
+                      <div class="prod-description">
+                        <p>Apple iPad Pro Wi-Fi de 11 polegadas (Wi-Fi, 256 GB)</p>
+                      </div> 
+                      <div class="was-price"> 
+                            <span>De: </span> <del>R$ 2.699,00</del>
+                      </div>
+                      <div class="is-price">
+                          <span>Por: </span> <span>R$ 2.500,00</span>
+                      </div>
+                      
+                      <input class="addCart" type="button" value="Adicionar ao Carrinho"/>
+              </div>
+
+              <!-------Item 6-------->
+              <div class="item">
+                      <img class="box-produto" src="./img/home-pics/carrossel-produtos/ipadPro21.jpg" alt="Ipad Pro" >
+                      <div class="prod-description">
+                        <p>Apple iPad Pro Wi-Fi de 11 polegadas (Wi-Fi, 256 GB)</p>
+                      </div>
+                      <div class="was-price"> 
+                            <span>De: </span> <del>R$ 10.699,00</del>
+                      </div>
+                      <div class="is-price">
+                          <span>Por: </span> <span>R$ 9.599,00</span>
+                      </div>
+                      
+                      <input class="addCart" type="button" value="Adicionar ao Carrinho"/>
+              </div>
+
+              <!-------Item 7-------->
+              <div class="item">
+                      <img class="box-produto" src="./img/home-pics/carrossel-produtos/notebookDell.jpg" alt="notebook dell inspiron i3501-u10p" >
+                      <div class="prod-description">
+                        <p>Apple iPad Pro Wi-Fi de 11 polegadas (Wi-Fi, 256 GB)</p>
+                      </div>
+                      <div class="was-price"> 
+                            <span>De: </span> <del>R$ 2.699,00</del>
+                      </div>
+                      <div class="is-price">
+                          <span>Por: </span> <span>R$ 2.500,00</span>
+                      </div>
+                      
+                      <input class="addCart" type="button" value="Adicionar ao Carrinho"/>
+              </div>
+
+              <!-------Item 8-------->
+              <div class="item">
+                      <img class="box-produto" src="./img/home-pics/carrossel-produtos/ipadPro21.jpg" alt="Ipad Pro" >
+                      <div class="prod-description">
+                        <p>Apple iPad Pro Wi-Fi de 11 polegadas (Wi-Fi, 256 GB)</p>
+                      </div>
+                      <div class="was-price"> 
+                            <span>De: </span> <del>R$ 10.699,00</del>
+                      </div>
+                      <div class="is-price">
+                          <span>Por: </span> <span>R$ 9.599,00</span>
+                      </div>
+                      
+                      <input class="addCart" type="button" value="Adicionar ao Carrinho"/>
+              </div>
+
+              <!-------Item 9-------->
+              <div class="item">
+                      <img class="box-produto" src="./img/home-pics/carrossel-produtos/notebookDell.jpg" alt="notebook dell inspiron i3501-u10p" >
+                      <div class="prod-description">
+                        <p>Apple iPad Pro Wi-Fi de 11 polegadas (Wi-Fi, 256 GB)</p>
+                      </div>
+                      <div class="was-price"> 
+                            <span>De: </span> <del>R$ 2.699,00</del>
+                      </div>
+                      <div class="is-price">
+                          <span>Por: </span> <span>R$ 2.500,00</span>
+                      </div>
+                      
+                      <input class="addCart" type="button" value="Adicionar ao Carrinho"/>
+              </div>
+
+              <!-------Item 10-------->
+              <div class="item">
+                      <img class="box-produto" src="./img/home-pics/carrossel-produtos/ipadPro21.jpg" alt="Ipad Pro" >
+                      <div class="prod-description">
+                        <p>Apple iPad Pro Wi-Fi de 11 polegadas (Wi-Fi, 256 GB)</p>
+                      </div>
+                      <div class="was-price"> 
+                            <span>De: </span> <del>R$ 10.699,00</del>
+                      </div>
+                      <div class="is-price">
+                          <span>Por: </span> <span>R$ 9.599,00</span>
+                      </div>
+                      
+                        <input class="addCart" type="button" value="Adicionar ao Carrinho"/>
+              </div>
+        </div>
+    </div>
+  </section>
+
+ <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>GStore</h4>
+          <ul>
+            <li><a href="#">sobre nós</a></li>
+            <li><a href="#">nossos serviços</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Programa de Pontos</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Ajuda</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Retirada em Loja</a></li>
+            <li><a href="#">Devoluções</a></li>
+            <li><a href="#">Acompanhamento do Pedido</a></li>
+            <li><a href="#">Opções de Pagamento</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">Celulares</a></li>
+            <li><a href="#">Informática</a></li>
+            <li><a href="#">Tv e Vídeo</a></li>
+            <li><a href="#">Eletrodomésticos</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Siga-nos</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="./js/home-js/jquery.min.js"></script>
+<script src="./js/home-js/owl.carousel.min.js"></script>
+<script src="./js/home-js/setup.js"></script>
+<script src="./js/home-js/redirect-paginaProduto.js"></script>
+</body>
+
+</html>

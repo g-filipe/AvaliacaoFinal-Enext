@@ -1,0 +1,244 @@
+/*SISTEMA DE ABAS*/
+
+.tab-links {
+  margin-top: 25px;
+  margin-bottom: 32px;
+}
+
+.tab-links button:hover{
+  cursor: pointer;
+  
+}
+
+.tab-links button {
+  border: none;
+  background: transparent;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 16px;
+  outline: none;
+  position: relative;
+}
+
+.tab-links button::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: rgb(128, 128, 128);
+  transition: .4s;
+}
+
+.tab-links button:hover::after,
+.tab-links button.active::after {
+  width: 100%;
+}
+
+.tab-content>section {
+  animation: up 1s;
+}
+
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#tabs{
+  display:flex;
+  flex-direction: column;
+}
+
+.tab-links,.tab-content{
+  width: 100%;
+  align-items: flex-start;
+}
+
+/*ESPECIFICAÇÕES*/
+
+.product-specifications-wrapper{
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.product-specifications-wrapper h3{
+text-transform: uppercase;
+margin-top: 10%;
+margin-bottom: 3%;
+}
+
+#techical-details{
+  text-align: left;
+}
+
+.product-specifications-wrapper h2{
+  color: rgb(58, 57, 57);
+}
+
+#techical-details tbody{
+  width: 100%;
+  font-size: 14px;
+}
+
+tr th{
+  padding: 10px;
+  border-bottom: 2px solid rgb(226, 224, 224);
+  color: rgb(85, 80, 80);
+  text-transform: capitalize;
+}
+
+tr td{
+  padding: 10px;
+  border-bottom: 2px solid rgb(226, 224, 224);
+  color: rgb(85, 80, 80);
+}
+
+/*DETALHES*/
+
+.banner{
+  display:flex;
+}
+
+#produce h3{
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 90px;
+  margin-top: 40px;
+}
+
+#produce h2{
+  margin-top: 10%;
+  margin-bottom: 3%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#produce p{
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 14px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+
+.lancamentoImg img {
+  width: 49.4vw;
+  padding-left: 0.3%;
+  margin-bottom: 0px;
+}
+
+.prodTextBanner {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.prodTextBanner h4{
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+
+.prodTextBanner h5{
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  text-align: left;
+  padding-top:17px;
+  padding-bottom: 5px;
+  padding-left: 14px
+}
+
+.ctaProd{
+  background-color: #1428A0;
+  color:#ffffff;
+  text-transform: uppercase;
+  border-radius: 3.5px;
+  border:none;
+  box-shadow: 3px 3px 10px rgba(0,0,0, 0.363);
+  width:200px;
+  height:10%;
+  margin-top: 5%;
+}
+
+.ctaProd:hover{
+  background-color: #ffffff;
+  cursor:pointer;
+  color:#1428A0;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+#vantagens{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#vantagens h2{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 85px;
+  margin-bottom: 0;
+  font-size: 1.9rem;
+}
+
+#vantagens h3{
+  color: #000000;
+  text-transform: capitalize;
+  margin-bottom: 45px;
+  margin-top: 30px;
+  font-size: 1.31rem;
+  font-weight: 500;
+}
+
+#vantagens p{
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#vantagens img{
+  width: 70%;
+}
+
+#adquirirCta{
+  display:flex;
+  justify-content: center;
+  width: 70%;
+  margin-bottom: 40px;
+  align-items: center;
+  margin-right: 0
+
+}
+
+#adquirirCta-btn{
+  background-color: #1428A0;
+  cursor:pointer;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 9px;
+  border:none;
+  box-shadow: 1px 1px 2px rgba(0,0,0, 0.363);
+  width:80%;
+  height:70px;
+  margin-top: 1%;
+}
+
+#adquirirCta-btn:hover{
+  background-color: #030f55;;
+  color:#ffffff;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
