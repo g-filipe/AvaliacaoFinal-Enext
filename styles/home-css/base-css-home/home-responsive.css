@@ -123,14 +123,15 @@
   }
 
   .prodTextBanner h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 35px;
     margin-top: 40px
   }
 
   .prodTextBanner p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 15px;
+    width: 90%;
   }
 
   .ctaProd{
@@ -178,13 +179,14 @@
   }
 
   .prodTextBanner h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 35px;
-    margin-top: 35px
+    margin-top: 35px;
+    width: 69%
   }
 
   .prodTextBanner p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     width: 90%;
   
   }
@@ -209,6 +211,11 @@
   .owl-item{
     display:flex;
     justify-content: center;
+  }
+
+  #vitrine-title {
+    width: 85%;
+    font-size: 1.4rem
   }
 
   .item{
