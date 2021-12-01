@@ -107,7 +107,6 @@
   .banner{
     flex-direction:column;
     align-items: center;
-    background-color: red;
   }
 
   /*inversão de ordem das divs*/
@@ -126,13 +125,12 @@
   .prodTextBanner h2 {
     font-size: 2rem;
     margin-bottom: 35px;
-    margin-right: 15px;
-    margin-top: 50px
+    margin-top: 40px
   }
 
   .prodTextBanner p {
     font-size: 0.9rem;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
   }
 
   .ctaProd{
@@ -144,8 +142,7 @@
   .lancamentoImg{
     display:flex;
     align-items: center;
-    background-color: blue;
-    width:90%
+    width:100%
    
   }
   
@@ -174,17 +171,22 @@
     margin-top: 120px;
     font-size: 2rem;
   }
+  .prodTextBanner{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .prodTextBanner h2 {
     font-size: 2rem;
     margin-bottom: 35px;
-    margin-right: 15px;
-    margin-top: 50px
+    margin-top: 35px
   }
 
   .prodTextBanner p {
-    font-size: 0.9rem;
-    margin-bottom: 35px;
+    font-size: 0.8rem;
+    width: 90%;
+  
   }
 
   .ctaProd{
@@ -193,17 +195,12 @@
     height: 50px;
   }
 
-
-  
   .lancamentoImg img{
-    width: 98%;
+    width: 100%;
     margin-top: 10px; 
     margin-bottom: 10px;
-    
   }
 }
-
-
 
 /*CARROSSEL*/
 
@@ -212,12 +209,11 @@
   .owl-item{
     display:flex;
     justify-content: center;
-    background-color: yellow;
   }
+
   .item{
     width: 98%;
     margin-left: 0;
-    background-color: blueviolet;
   }
 
   .item img{
@@ -233,8 +229,6 @@
   }
 }
 
-
-
 /*Footer*/
 
 @media(max-width: 767px){
@@ -243,6 +237,7 @@
     margin-bottom: 30px;
   }
 }
+
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
