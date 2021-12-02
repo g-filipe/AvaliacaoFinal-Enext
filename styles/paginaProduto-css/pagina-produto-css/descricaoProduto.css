@@ -197,7 +197,7 @@ tr td{
   color: #000000;
   text-transform: capitalize;
   margin-bottom: 45px;
-  margin-top: 30px;
+  margin-top: 25px;
   font-size: 1.31rem;
   font-weight: 500;
 }
@@ -209,13 +209,14 @@ tr td{
 }
 
 #vantagens img{
-  width: 70%;
+  width: 45%;
+  margin-bottom: 30px;
 }
 
 #adquirirCta{
   display:flex;
   justify-content: center;
-  width: 70%;
+  width: 60%;
   margin-bottom: 40px;
   align-items: center;
   margin-right: 0
